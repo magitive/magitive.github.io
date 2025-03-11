@@ -3,22 +3,22 @@
     - name: Anasayfa
       link: /
     - name: İşler
-      link: /tr/isler/
+      link: /isler/
     - name: Blog
-      link: /tr/blog/
+      link: /blog/
     - name: Hakkımızda
-      link: /tr/hakkimizda/
+      link: /hakkimizda/
     - name: İletişim
-      link: /tr/iletisim/
+      link: /iletisim/
 - title: Sosyal Ağ Bağlantıları
   links:
     - name: Facebook
       link: https://facebook.com/magitive/
       social_icon: Facebook
       new_window: true
-    - name: Twitter
+    - name: X
       link: https://x.com/magitive/
-      social_icon: X
+      social_icon: Twitter
       new_window: true
     - name: Instagram
       link: https://instagram.com/magitiveagency
