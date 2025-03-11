@@ -1,0 +1,26 @@
+- title: Sayfalar
+  links:
+    - name: Home
+      link: /
+    - name: İşler
+      link: /tr/isler/
+    - name: Blog
+      link: /tr/blog/
+    - name: Hakkımızda
+      link: /tr/hakkimizda/
+    - name: İletişim
+      link: /tr/iletisim/
+- title: Sosyal Ağ Bağlantıları
+  links:
+    - name: Facebook
+      link: https://facebook.com/magitive/
+      social_icon: Facebook
+      new_window: true
+    - name: Twitter
+      link: https://x.com/magitive/
+      social_icon: Twitter
+      new_window: true
+    - name: Instagram
+      link: https://instagram.com/magitiveagency
+      social_icon: Instagram
+      new_window: true
