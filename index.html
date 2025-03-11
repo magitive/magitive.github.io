@@ -17,7 +17,7 @@
  		</div>
  		<div>
  			<ul class="image-grid">
- 				{% for client in site.isler limit: 4 %}
+ 				{% for is in site.isler limit: 4 %}
  					<li><a href="{{ site.baseurl }}{{ is.url }}"><img src="{% include relative-src.html src=is.image_path %}"></a></li>
  				{% endfor %}
  			</ul>
