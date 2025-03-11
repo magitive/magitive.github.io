@@ -7,10 +7,9 @@ tags:
   - web
   - tasarım
 ---
-![Web Tasarım](https://www.yungmedia.com/images/app-development-banner.jpg)
-# Web Tasarım Nedir?
-
 Günümüzde internet, hayatımızın vazgeçilmez bir parçası haline geldi. Şirketler, markalar, bireyler ve hatta devlet kurumları bile dijital dünyada varlık göstermek için web sitelerine ihtiyaç duyuyor. İşte tam da bu noktada "web tasarım" kavramı devreye giriyor. Peki, web tasarım nedir ve neden bu kadar önemlidir?
+
+![Web Tasarım](https://www.yungmedia.com/images/app-development-banner.jpg)
 
 ## Web Tasarımın Tanımı
 
