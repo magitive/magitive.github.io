@@ -1,6 +1,6 @@
 title: Magitive
 url: "https://teal-worm.cloudvent.net"
-baseurl:
+baseurl: /
 google_analytics_key:
 google_maps_javascript_api_key:
 disqus_shortname:
@@ -12,13 +12,13 @@ description: Magitive is a freelance community that provides professional servic
 author:
   name: Magitive
   email: magitive@gmail.com
-  twitter: @magitive
+  twitter: magitive
 
 # Social details for the jekyll-seo-tag gem
 social:
   name: Magitive
   links:
-    - https://www.magitive.com
+    - /
 
 timezone: Etc/UTC
 
