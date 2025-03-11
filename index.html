@@ -1,42 +1,41 @@
 ---
-
 ---
-<section class="hero diagonal">
-	<div class="container">
-		<h2 class="editable">We build websites</h2>
-		<p class="subtext editable">Make a difference in the digital world! We elevate your brand with unique, innovative, and effective web solutions.</p>
-		<p><a class="button alt" href="{{ site.baseurl }}/contact/">Contact Us</a></p>
-	</div>
-</section>
-
-<section class="diagonal patterned">
-	<div class="container halves">
-		<div>
-			<h3 class="editable">Some of our work</h3>
-			<p class="editable">We take pride in our previous work and our happy customers. We cater to any sector to boost business and increase exposure.</p>
-			<p class="editable"><a href="{{ site.baseurl }}/portfolio/">View Full Portfolio &rarr;</a></p>
-		</div>
-		<div>
-			<ul class="image-grid">
-				{% for client in site.clients limit: 4 %}
-					<li><a href="{{ site.baseurl }}{{ client.url }}"><img src="{% include relative-src.html src=client.image_path %}"></a></li>
-				{% endfor %}
-			</ul>
-		</div>
-	</div>
-</section>
-
-<section class="diagonal alternate">
-	<div class="container halves">
-		<div>
-			<ul class="image-list">
-				<!--<li><img src="{{ site.baseurl }}/images/cloudcannon-logo-blue.svg" width="250" style="margin-bottom: 40px;"></li>-->
-				<li><img src="https://www.svgrepo.com/show/424833/website-performance-internet.svg" width="300"></li>
-			</ul>
-		</div>
-		<div>
-			<h3 class="editable">Latest software, greatest perfomance</h3>
-			<p class="editable">As a new agency we get reap the benefits of the latest and greatest. We build our websites with the most up to date technology. This ensures your website is fast, efficient and reliable for many years.</p>
-		</div>
-	</div>
-</section>
+ <section class="hero diagonal">
+ 	<div class="container">
+ 		<h2 class="editable">Ürün ve hizmetlerinize uygun websiteler oluşturuyoruz.</h2>
+ 		<p class="subtext editable">Dijital dünyada fark yaratın! Özgün, yenilikçi ve etkili web çözümleriyle markanızı bir adım öne taşıyoruz.</p>
+ 		<p><a class="button alt" href="/tr/iletisim/">Bize Ulaşın</a></p>
+ 	</div>
+ </section>
+ 
+ <section class="diagonal patterned">
+ 	<div class="container halves">
+ 		<div>
+ 			<h3 class="editable">Yaptığımız işlerden bazıları</h3>
+ 			<p class="editable">Daha önce yaptığımız işlerle ve mutlu müşterilerimizle gurur duyuyoruz. İş geliştirmede ve görünürlüğü artırmada her türlü sektöre hitap ediyoruz.</p>
+ 			<p class="editable"><a href="/tr/isler/">Yaptığımız işlerin tamamı &rarr;</a></p>
+ 		</div>
+ 		<div>
+ 			<ul class="image-grid">
+ 				{% for client in site.clients limit: 4 %}
+ 					<li><a href="{{ site.baseurl }}{{ client.url }}"><img src="{% include relative-src.html src=client.image_path %}"></a></li>
+ 				{% endfor %}
+ 			</ul>
+ 		</div>
+ 	</div>
+ </section>
+ 
+ <section class="diagonal alternate">
+ 	<div class="container halves">
+ 		<div>
+ 			<ul class="image-list">
+ 				<!--<li><img src="{{ site.baseurl }}/images/cloudcannon-logo-blue.svg" width="250" style="margin-bottom: 40px;"></li>-->
+ 				<li><img src="https://www.svgrepo.com/show/424833/website-performance-internet.svg" width="300"></li>
+ 			</ul>
+ 		</div>
+ 		<div>
+ 			<h3 class="editable">En son yazılım, en yüksek performans</h3>
+ 			<p class="editable">En son ve en iyinin avantajlarından yararlanıyoruz. Web sitelerimizi en güncel teknoloji ile oluşturuyoruz. Bu, web sitenizin uzun yıllar boyunca hızlı, verimli ve güvenilir olmasını sağlar.</p>
+ 		</div>
+ 	</div>
+ </section>
