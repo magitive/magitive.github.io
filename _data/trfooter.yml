@@ -1,6 +1,6 @@
 - title: Sayfalar
   links:
-    - name: Home
+    - name: Anasayfa
       link: /
     - name: İşler
       link: /tr/isler/
@@ -18,7 +18,7 @@
       new_window: true
     - name: Twitter
       link: https://x.com/magitive/
-      social_icon: Twitter
+      social_icon: X
       new_window: true
     - name: Instagram
       link: https://instagram.com/magitiveagency
