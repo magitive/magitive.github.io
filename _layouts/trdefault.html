@@ -37,7 +37,7 @@
 				<p class="editor-link"><a href="cloudcannon:collections/_data/footer.yml" class="btn"><strong>&#9998;</strong> Update Footer Sections</a></p>
 
 				<div class="footer-columns">
-					{% for column in site.data.footer %}
+					{% for column in site.data.trfooter %}
 						<ul class="footer-links">
 							<li>
 								<h2>{{ column.title }}</h2>
@@ -58,17 +58,17 @@
 
 					<ul class="footer-links">
 						<li>
-							<h2>{{ site.data.company.title }}</h2>
+							<h2>{{ site.data.trcompany.title }}</h2>
 						</li>
-						<li>{{ site.data.company.description }}</li>
-						<li><a href="{{ site.baseurl }}/feed.xml">{% include social-icon.html icon="RSS" %} Subscribe with RSS</a></li>
+						<li>{{ site.data.trcompany.description }}</li>
+						<li><a href="{{ site.baseurl }}/feed.xml">{% include social-icon.html icon="RSS" %} RSS Aboneliği</a></li>
 					</ul>
 				</div>
 			</div>
 
 			<div class="legal-line">
 				<p class="container">
-					&copy; {{ site.time | date: '%Y' }} {{ site.data.company.title }}
+					&copy; {{ site.time | date: '%Y' }} {{ site.trdata.company.title }}
 				
 				</p>
 			</div>
