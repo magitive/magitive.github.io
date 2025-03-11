@@ -1,0 +1,26 @@
+---
+title: İşler
+heading: İşler
+subtitle: Son yaptığımız örnek işlere göz atın.
+---
+
+<section class="diagonal patterned">
+	<div class="container">
+	    <p class="editor-link" style="text-align: center;"><a href="cloudcannon:collections/_isler/" class="btn"><strong>&#9998;</strong> Manage Clients</a></p>
+		<ul class="image-grid">
+			{% for client in site.isler %}
+				<li>
+					<a href="{{ site.baseurl }}{{ is.url }}">
+						<img src="{% include relative-src.html src=is.image_path %}" alt="{{ person.name }}">
+						<div class="details">
+							<div class="name">{{ is.name }}</div>
+							<div class="position">{{ is.subtitle }}</div>
+						</div>
+					</a>
+				</li>
+			{% endfor %}
+			<li class="filler"></li>
+			<li class="filler"></li>
+		</ul>
+	</div>
+</section>
