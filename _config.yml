@@ -6,7 +6,7 @@ google_maps_javascript_api_key:
 disqus_shortname:
 
 # Default description in social shares for the jekyll-seo-tag gem
-description: Magitive is a freelance community that provides professional services in the field of web development and design.
+description: Magitive, web geliştirme ve tasarım alanında profesyonel hizmetler sunan bir serbest çalışma topluluğudur.
 
 # Author details for the jekyll-seo-tag gem
 author:
@@ -60,9 +60,9 @@ defaults:
           height: 2000
   - scope:
       path: ""
-      type: "clients"
+      type: "isler"
     values:
-      layout: "client"
+      layout: "is"
       _options:
         image_path:
           width: 2000
