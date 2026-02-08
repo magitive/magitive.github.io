@@ -123,9 +123,7 @@ Kullanıcı siteye girdiğinde bilinçaltında güven arar. Güven veren bir web
 
 Güven hissi olmayan site dönüşüm sağlayamaz.
 
-## Sonuç
-
-2026’da başarılı web siteleri:
+Özetle 2026’da başarılı bir web sitesi aşağıdakilere sahip olmalıdır;
 
 - Hızlıdır
 - Mobil uyumludur
