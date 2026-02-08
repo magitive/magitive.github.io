@@ -11,8 +11,6 @@ tags:
 
 İnternet dünyası sürekli değişiyor ve artık sadece “güzel görünen” bir web sitesi yeterli değil. Kullanıcı hızlı istiyor, sade istiyor ve en önemlisi sorunsuz bir deneyim yaşamak istiyor. Google ise performans, mobil uyumluluk ve kullanıcı deneyimini ön planda tutuyor. İşte bu yüzden 2026’da web tasarım anlayışı tamamen **hız, sadelik ve kullanıcı odaklılık** üzerine kurulu.
 
-![Web Tasarım Trendleri](https://www.yungmedia.com/images/app-development-banner.jpg)
-
 ## Artık Tasarım Değil Deneyim Önemli
 
 Eskiden web tasarım daha çok görselliğe odaklanıyordu. Ancak günümüzde kullanıcı deneyimi (UX) her şeyden daha önemli hale geldi. Ziyaretçi siteye girdiğinde:
